@@ -1,0 +1,10 @@
+@media only screen and (max-width: 600px) {
+    .poem-container {
+        width: 90%; /* Ajusta el ancho para pantallas más pequeñas */
+        padding: 20px;
+    }
+
+    .corner-images {
+        width: 100px; /* Ajusta el tamaño para pantallas más pequeñas */
+    }
+}

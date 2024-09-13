@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Flores Amarillas</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #949494;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Estilos para las imágenes en las esquinas */
+        .corner-images {
+            position: absolute;
+            width: 150px;
+        }
+
+        .top-left {
+            top: -10px;
+            left: 10px;
+        }
+
+        .top-right {
+            top: -15px;
+            right: 10px;
+        }
+
+        .bottom-banner {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 150px;
+        }
+
+        /* Estilo para el cuadro central tipo carta */
+        .poem-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            margin: 0 auto;
+            padding: 30px;
+            width: 60%;
+            background-color: #fff;
+            border: 5px solid #ffd700;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .title-image {
+            position: relative;
+            width: 100%;
+            height: 100px;
+            background-image: url('img/tulko.png'); /* Cambia esta imagen por la tuya */
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .title-image h1 {
+            font-size: 9px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .poem-container p {
+            font-size: 1.5em;
+            color: #666;
+            margin: 0;
+        }
+         /* Contenedor de las imágenes al final */
+         .poem-images {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .poem-images img {
+            width: 100px;
+            margin: 0 10px; /* Espacio entre las imágenes */
+        }
+       
+        /* Estilo para las imágenes a los lados del cuadro central */
+        .side-images {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 120px;
+        }
+
+        .side-left {
+            left: -20px;
+        }
+
+        .side-right {
+            right:-20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Imágenes en las esquinas superiores -->
+    <img src="img/Flor esquiona izquierda.png" alt="Flor Amarilla" class="corner-images top-left">
+    <img src="img/adadsadas.png" alt="Flor Amarilla" class="corner-images top-right">
+
+    <!-- Cuadro central para el poema -->
+    <div class="poem-container">
+        <div class="title-image">
+            <h1>🌻Las Flores que Siempre Fueron Tuyas🌻</h1>
+        </div>
+        <p style="font-size: small;">
+            
+
+Hoy te traigo estas flores,
+las que en mi corazón crecieron,
+las que tanto tiempo esperaron
+a encontrarse en tus manos, al fin.
+
+Sé que las has soñado,
+que en tus ojos ya las habías visto,
+y aunque tardaron en llegar,
+cada pétalo es un "te amo" que jamás se rindió.
+
+En cada flor va un suspiro,
+una promesa que florece,
+y aunque el tiempo haya pasado,
+este ramo siempre fue tuyo, desde el primer día.
+
+Perdona la espera, mi amor,
+porque estas flores son más que un regalo,
+son el reflejo de lo que eres para mí:
+la belleza que siempre me acompaña,
+el jardín que nunca dejé de cuidar.
+
+Hoy al fin te las doy,
+con todo el amor que ya conoces,
+porque en cada pétalo,
+vuelvo a prometerte: "Siempre seré tuyo."<br>
+            Te amo mucho mi niña hermosa 💖, lamento que no fueran flores reales :(<br>
+            Que la vida siempre brille para ti princesa te adoro 💕🌻
+        </p>
+        
+        <!-- Imagen al final del poema -->
+         <div class="poem-images">
+        <img src="img/Imagen4.png" alt="Flor al final" class="poem-end-image">
+        <img src="img/Imagen2.png" alt="Otra flor al final">
+    </div>
+    </div>
+
+    <!-- Imágenes a los lados del cuadro central -->
+    <img src="img/borde2.png" alt="Flor Lado Izquierdo" class="side-images side-left">
+    <img src="img/borde.png" alt="Flor Lado Derecho" class="side-images side-right">
+
+    <!-- Banner inferior de flores amarillas -->
+    <img src="img/Imagen1.png" alt="Banner de flores amarillas" class="bottom-banner">
+
+</body>
+</html>
